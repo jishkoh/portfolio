@@ -180,22 +180,99 @@
     <!-- Projects jumbotron -->
     
     <body>
-              
+
         <div class="jumbotron jumbotron-fluid" style="background-color: #2E5266">
-          <div class="container">
-            <h1 class="display-4 text-center text-light">Projects</h1>
-            <p class="lead text-center text-light">
-              June 2015 - Present
-            </p>
-          </div>
+            <div class="container">
+                <h1 class="display-4 text-center text-light">Projects</h1>
+                <p class="lead text-center text-light">
+                    June 2015 - Present
+                </p>
+            </div>
         </div>
-        
+
+        <!-- Kinematics Duel project -->
+
+        <div class="card mb-3 flex-md-row">
+            <div class="card-body">
+                <h3 class="card-title" style="color: #2E5266">
+                    Kinematics Duel Project
+                </h3>
+                <p class="card-text">
+                    Play as a cannon cart fighting for dominance in this Kinematics-based local multiplayer game!
+                </p>
+                <p class="card-text">
+                    The objective of this project was to design and build a
+                    self-sustaining aquaponics system. To do this, we created
+                    a control system with a Raspberry Pi at its core. The final
+                    product consists of two plant beds as well as a single
+                    large tank, which holds the fish. The water in the system
+                    flows in a continuous loop, cycling from the fish tank to
+                    the plant beds and back again. Water Level, temperature,
+                    pH, and light sensors send feedback to a Raspberry Pi,
+                    which then sends the data onto a web server. My job in this
+                    project was to link the sensors to the Raspberry Pi and
+                    write code that would allow the output of the sensors to
+                    be read and converted into actual measurements of distance,
+                    temperature, pH, and light. I was also in charge of implementing
+                    bell siphons into the plant beds (see documentation). These
+                    two responsibilities helped me experience aspects of both mechanical
+                    engineering and computer science. The biggest challenge that I faced
+                    in this project was combining the programs dictating how each sensor
+                    operated into a single, cohesive whole. This required me to learn
+                    multithreading to solve the issue, and even then it took me a good
+                    week to complete that code. In this project, I was actually a worker
+                    instead of a leader, as my older sister was the one in charge of the
+                    project. This was an unusual position for me, as I was used giving
+                    orders and not receiving them. However, I managed to cope with this
+                    new status and was able to complete my assignments on time.
+
+                </p>
+                <div class="text-left">
+                </div>
+            </div>
+            <div class="column">
+                <div class="text-center">
+                    <img class="card-img-right"
+                         style="max-width:400px; max-height:250px"
+                         src="Images/plantbed.jpg"
+                         alt="Aquaponics System">
+                    <img class="card-img-right"
+                         style="max-width:400px; max-height:250px"
+                         src="Images/pump.jpg"
+                         alt="Bell Siphon">
+                </div>
+            </div>
+        </div>
+
+        <!-- Kinematics project documentation download card -->
+
+        <div class="card mb-3 flex-md-row">
+            <div class="card-body">
+                <h3 class="card-title" style="color: #2E5266">
+                    Kinematics Project Documentation
+                </h3>
+                <p>
+                    Here are our links to documentation for Kinematics Duel Project.
+                </p>
+                <a role="button"
+                   href="PDF/aquasense.pdf"
+                   target="_blank"
+                   class="btn btn-primary"
+                   style="background-color: #2E5266; color: white;">
+                    Click to view Kinematics Duel Project Report (PDF)
+                </a>
+            </div>
+        </div>
+
+        </div>
+
         <!-- Aquasense project card with images -->
-        
+
         <div class="container">
             <div class="card mb-3 flex-md-row">
                 <div class="card-body">
-                    <h3 class="card-title" style="color: #2E5266">Hangman Project (CSP, January 2019)
+                    <h3 class="card-title" style="color: #2E5266">
+                        Hangman Project (CSP, January 2019)
                     </h3>
                     <p class="card-text">
                         Creating a hangman game in Python 2.7
@@ -203,18 +280,18 @@
                     <p class="card-text">
                         The goal of this mini project was to explore the use of
                         functions and loops in game creation. To make the hangman
-                        project work, I used a simple "while" loop that would 
-                        check for the number of tries left, and exit the loop 
+                        project work, I used a simple "while" loop that would
+                        check for the number of tries left, and exit the loop
                         when the variable "tries" was exhausted. Then, I used
-                        two functions to allow input from the player and 
+                        two functions to allow input from the player and
                         analyze the results. One function would be called every
-                        iteration of the loop, and that function would call a 
+                        iteration of the loop, and that function would call a
                         check to determine if the guessed letters were part
-                        of the secret word. One problem I faced was that the 
+                        of the secret word. One problem I faced was that the
                         function that processes guessed letters takes multiple
                         letters as its argument. In a normal hangman game, the
                         player can only guess one letter at a time. To solve this,
-                        I created a series of filters that would prevent the 
+                        I created a series of filters that would prevent the
                         player from inputting either too many characters or any
                         special characters in the while loop. If the player's
                         input was filtered, the game would acknowledge that their
@@ -225,223 +302,293 @@
                         the library "colorama" to give the text its color, which
                         made it easier for the player to read. In this project,
                         I learned how to interconnect functions and troubleshoot
-                        in a way that would allow the program to run smoothly 
+                        in a way that would allow the program to run smoothly
                         and be organized in a way that is easy to understand. I
                         also worked well with my partner in dividing up the tasks
-                        such that each of us always had something to work on, and 
+                        such that each of us always had something to work on, and
                         that we could check each other's work.
                     </p>
-                    
+
                     <p class="card-text">
                         To run the code, click the green play button below.
                     </p>
-                    
+
                     <iframe height="400px" width="100%" src="https://repl.it/@joltixfire/hankman?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
                     <div class="text-left">
                     </div>
                 </div>
             </div>
-            
+
             <!-- Aquasense project documentation download card -->
-            
+
             <div class="card mb-3 flex-md-row">
                 <div class="card-body">
-                    <h3 class="card-title" style="color: #2E5266">Hangman Project Documentation
+                    <h3 class="card-title" style="color: #2E5266">
+                        Hangman Project Documentation
                     </h3>
                     <p>
-                      Here are our links to documentation for CSP Hangman:
+                        Here are our links to documentation for CSP Hangman:
                     </p>
-                    <a 
-                      role ="button" 
-                      href="https://repl.it/@joltixfire/hankman"
-                      target="_blank"
-                      class="btn btn-primary" 
-                      style="background-color: #2E5266; color: white;">
-                      Link to Hangman on Repl.it 
+                    <a role="button"
+                       href="https://repl.it/@joltixfire/hankman"
+                       target="_blank"
+                       class="btn btn-primary"
+                       style="background-color: #2E5266; color: white;">
+                        Link to Hangman on Repl.it
                     </a>
-                    
-                    <a 
-                      role ="button" 
-                      href="Python/Hangman.py"
-                      target="_blank"
-                      class="btn btn-primary" 
-                      style="background-color: #2E5266; color: white;">
-                      Download Python Code
+
+                    <a role="button"
+                       href="Python/Hangman.py"
+                       target="_blank"
+                       class="btn btn-primary"
+                       style="background-color: #2E5266; color: white;">
+                        Download Python Code
                     </a>
-                    
-                    <a 
-                      role ="button" 
-                      href="PDF/HangmanPDF.pdf"
-                      target="_blank"
-                      class="btn btn-primary" 
-                      style="background-color: #2E5266; color: white;">
-                      View code as PDF
+
+                    <a role="button"
+                       href="PDF/HangmanPDF.pdf"
+                       target="_blank"
+                       class="btn btn-primary"
+                       style="background-color: #2E5266; color: white;">
+                        View code as PDF
                     </a>
-                    
+
                 </div>
             </div>
-            
+
             <!-- App inventor Project -->
-            
+
             <div class="container">
-            <div class="card mb-3 flex-md-row">
-                <div class="card-body">
-                    <h3 class="card-title" style="color: #2E5266">App Inventor Project (CSP, September  2018)
-                    </h3>
-                    <p class="card-text">
-                        First steps in App development: MIT App inventor
-                    </p>
-                    <p class="card-text">
-                        The goal of this project was to explore app development 
-                        using MIT App Inventor. Since this was a blockly 
-                        language, my partner and I were aware that our development
-                        would be severely limited. Nevertheless, we decided
-                        to create a trivia app using the tools available to us.
-                        One challenge that we faced was setting the correct 
-                        answers for each question and randomizing the order of
-                        answers. Since .txt files can't be imported into App
-                        Inventor, we had to use lists in the program itself to 
-                        store our questions and answers. The correct answers 
-                        from each list were simply the first item in the "answers"
-                        list. However, if the answer list was simply displayed, 
-                        the answer would always be the first option. In order to 
-                        fix this, we used a random number generator to randomize
-                        the position of each button. This allowed the answers to
-                        be unpredictable and harder for the player to guess. 
-                        Because this was my first app-creation project, I learned 
-                        a lot about optimizing apps for devices of different
-                        screen sizes as well as ensuring that the visual 
-                        aesthetic of the app was easy to read as well as 
-                        uncluttered. Overall, I really enjoyed this project,
-                        and I look forward to furthering my experience in 
-                        app development.
-                    </p>
-                    
-                    <div class="text-left">
+                <div class="card mb-3 flex-md-row">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color: #2E5266">
+                            App Inventor Project (CSP, September  2018)
+                        </h3>
+                        <p class="card-text">
+                            First steps in App development: MIT App inventor
+                        </p>
+                        <p class="card-text">
+                            The goal of this project was to explore app development
+                            using MIT App Inventor. Since this was a blockly
+                            language, my partner and I were aware that our development
+                            would be severely limited. Nevertheless, we decided
+                            to create a trivia app using the tools available to us.
+                            One challenge that we faced was setting the correct
+                            answers for each question and randomizing the order of
+                            answers. Since .txt files can't be imported into App
+                            Inventor, we had to use lists in the program itself to
+                            store our questions and answers. The correct answers
+                            from each list were simply the first item in the "answers"
+                            list. However, if the answer list was simply displayed,
+                            the answer would always be the first option. In order to
+                            fix this, we used a random number generator to randomize
+                            the position of each button. This allowed the answers to
+                            be unpredictable and harder for the player to guess.
+                            Because this was my first app-creation project, I learned
+                            a lot about optimizing apps for devices of different
+                            screen sizes as well as ensuring that the visual
+                            aesthetic of the app was easy to read as well as
+                            uncluttered. Overall, I really enjoyed this project,
+                            and I look forward to furthering my experience in
+                            app development.
+                        </p>
+
+                        <div class="text-left">
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="text-center">
+                            <img class="card-img-right"
+                                 style="max-width:350px; max-height:500px"
+                                 src="Images/appinvsc.jpg"
+                                 alt="Aquaponics System">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card mb-3 flex-md-row">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color: #2E5266">
+                            App Inventor Project Documentation
+                        </h3>
+                        <p>
+                            Here are our links to documentation for the CSP App Inventor Project:
+                        </p>
+                        <a role="button"
+                           href="App Inventor/appinventortq.aia"
+                           target="_blank"
+                           class="btn btn-primary"
+                           style="background-color: #2E5266; color: white;">
+                            Download .aia file
+                        </a>
+
+                        <a role="button"
+                           href="PDF/appinventor.pdf"
+                           target="_blank"
+                           class="btn btn-primary"
+                           style="background-color: #2E5266; color: white;">
+                            Click to view AI Project Documentation
+                        </a>
+
                     </div>
                 </div>
-                
-                <div class="column">
-                  <div class="text-center">
-                    <img 
-                    class="card-img-right" 
-                    style="max-width:350px; max-height:500px" 
-                    src="Images/appinvsc.jpg" 
-                    alt="Aquaponics System">
-                  </div>
+
+                <div class="card mb-3 flex-md-row">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color: #2E5266">
+                            Aquasense (December 2016 - March 2017)
+                        </h3>
+                        <p class="card-text">
+                            Smart aquaponics system with sensors and integrated web-based feedback
+                        </p>
+                        <p class="card-text">
+                            The objective of this project was to design and build a
+                            self-sustaining aquaponics system. To do this, we created
+                            a control system with a Raspberry Pi at its core. The final
+                            product consists of two plant beds as well as a single
+                            large tank, which holds the fish. The water in the system
+                            flows in a continuous loop, cycling from the fish tank to
+                            the plant beds and back again. Water Level, temperature,
+                            pH, and light sensors send feedback to a Raspberry Pi,
+                            which then sends the data onto a web server. My job in this
+                            project was to link the sensors to the Raspberry Pi and
+                            write code that would allow the output of the sensors to
+                            be read and converted into actual measurements of distance,
+                            temperature, pH, and light. I was also in charge of implementing
+                            bell siphons into the plant beds (see documentation). These
+                            two responsibilities helped me experience aspects of both mechanical
+                            engineering and computer science. The biggest challenge that I faced
+                            in this project was combining the programs dictating how each sensor
+                            operated into a single, cohesive whole. This required me to learn
+                            multithreading to solve the issue, and even then it took me a good
+                            week to complete that code. In this project, I was actually a worker
+                            instead of a leader, as my older sister was the one in charge of the
+                            project. This was an unusual position for me, as I was used giving
+                            orders and not receiving them. However, I managed to cope with this
+                            new status and was able to complete my assignments on time.
+
+                        </p>
+                        <div class="text-left">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="text-center">
+                            <img class="card-img-right"
+                                 style="max-width:400px; max-height:250px"
+                                 src="Images/plantbed.jpg"
+                                 alt="Aquaponics System">
+                            <img class="card-img-right"
+                                 style="max-width:400px; max-height:250px"
+                                 src="Images/pump.jpg"
+                                 alt="Bell Siphon">
+                        </div>
+                    </div>
                 </div>
-                
+
+                <!-- Aquasense project documentation download card -->
+
+                <div class="card mb-3 flex-md-row">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color: #2E5266">
+                            Aquasense Project Documentation
+                        </h3>
+                        <p>
+                            Here are our links to documentation for Aquasense Project.
+                        </p>
+                        <a role="button"
+                           href="PDF/aquasense.pdf"
+                           target="_blank"
+                           class="btn btn-primary"
+                           style="background-color: #2E5266; color: white;">
+                            Click to view Aquasense Project Report (PDF)
+                        </a>
+                    </div>
+                </div>
+
             </div>
-            
+
             <div class="card mb-3 flex-md-row">
                 <div class="card-body">
-                    <h3 class="card-title" style="color: #2E5266">App Inventor Project Documentation
-                    </h3>
-                    <p>
-                      Here are our links to documentation for the CSP App Inventor Project:
-                    </p>
-                    <a 
-                      role ="button" 
-                      href="App Inventor/appinventortq.aia"
-                      target="_blank"
-                      class="btn btn-primary" 
-                      style="background-color: #2E5266; color: white;">
-                      Download .aia file
-                    </a>
-                    
-                    <a 
-                      role ="button" 
-                      href="PDF/appinventor.pdf"
-                      target="_blank"
-                      class="btn btn-primary" 
-                      style="background-color: #2E5266; color: white;">
-                      Click to view AI Project Documentation
-                    </a>
-                    
-                </div>
-            </div>
-            
-            <div class="card mb-3 flex-md-row">
-                <div class="card-body">
-                    <h3 class="card-title" style="color: #2E5266">Aquasense (December 2016 - March 2017)
+                    <h3 class="card-title" style="color: #2E5266">
+                        Aquasense (December 2016 - March 2017)
                     </h3>
                     <p class="card-text">
                         Smart aquaponics system with sensors and integrated web-based feedback
                     </p>
                     <p class="card-text">
                         The objective of this project was to design and build a
-                         self-sustaining aquaponics system. To do this, we created 
-                        a control system with a Raspberry Pi at its core. The final 
+                        self-sustaining aquaponics system. To do this, we created
+                        a control system with a Raspberry Pi at its core. The final
                         product consists of two plant beds as well as a single
-                        large tank, which holds the fish. The water in the system 
-                        flows in a continuous loop, cycling from the fish tank to 
+                        large tank, which holds the fish. The water in the system
+                        flows in a continuous loop, cycling from the fish tank to
                         the plant beds and back again. Water Level, temperature,
-                        pH, and light sensors send feedback to a Raspberry Pi, 
+                        pH, and light sensors send feedback to a Raspberry Pi,
                         which then sends the data onto a web server. My job in this
-                        project was to link the sensors to the Raspberry Pi and 
-                        write code that would allow the output of the sensors to 
+                        project was to link the sensors to the Raspberry Pi and
+                        write code that would allow the output of the sensors to
                         be read and converted into actual measurements of distance,
                         temperature, pH, and light. I was also in charge of implementing
                         bell siphons into the plant beds (see documentation). These
-                        two responsibilities helped me experience aspects of both mechanical 
-                        engineering and computer science. The biggest challenge that I faced 
-                        in this project was combining the programs dictating how each sensor 
-                        operated into a single, cohesive whole. This required me to learn 
-                        multithreading to solve the issue, and even then it took me a good 
-                        week to complete that code. In this project, I was actually a worker 
-                        instead of a leader, as my older sister was the one in charge of the 
-                        project. This was an unusual position for me, as I was used giving 
-                        orders and not receiving them. However, I managed to cope with this 
+                        two responsibilities helped me experience aspects of both mechanical
+                        engineering and computer science. The biggest challenge that I faced
+                        in this project was combining the programs dictating how each sensor
+                        operated into a single, cohesive whole. This required me to learn
+                        multithreading to solve the issue, and even then it took me a good
+                        week to complete that code. In this project, I was actually a worker
+                        instead of a leader, as my older sister was the one in charge of the
+                        project. This was an unusual position for me, as I was used giving
+                        orders and not receiving them. However, I managed to cope with this
                         new status and was able to complete my assignments on time.
-                        
+
                     </p>
                     <div class="text-left">
                     </div>
                 </div>
                 <div class="column">
-                  <div class="text-center">
-                    <img 
-                    class="card-img-right" 
-                    style="max-width:400px; max-height:250px" 
-                    src="Images/plantbed.jpg" 
-                    alt="Aquaponics System">
-                    <img 
-                    class="card-img-right" 
-                    style="max-width:400px; max-height:250px" 
-                    src="Images/pump.jpg" 
-                    alt="Bell Siphon">
-                  </div>
+                    <div class="text-center">
+                        <img class="card-img-right"
+                             style="max-width:400px; max-height:250px"
+                             src="Images/plantbed.jpg"
+                             alt="Aquaponics System">
+                        <img class="card-img-right"
+                             style="max-width:400px; max-height:250px"
+                             src="Images/pump.jpg"
+                             alt="Bell Siphon">
+                    </div>
                 </div>
             </div>
-            
+
             <!-- Aquasense project documentation download card -->
-            
+
             <div class="card mb-3 flex-md-row">
                 <div class="card-body">
-                    <h3 class="card-title" style="color: #2E5266">Aquasense Project Documentation
+                    <h3 class="card-title" style="color: #2E5266">
+                        Aquasense Project Documentation
                     </h3>
                     <p>
-                      Here are our links to documentation for Aquasense Project.
+                        Here are our links to documentation for Aquasense Project.
                     </p>
-                    <a 
-                      role ="button" 
-                      href="PDF/aquasense.pdf"
-                      target="_blank"
-                      class="btn btn-primary" 
-                      style="background-color: #2E5266; color: white;">
-                      Click to view Aquasense Project Report (PDF)
+                    <a role="button"
+                       href="PDF/aquasense.pdf"
+                       target="_blank"
+                       class="btn btn-primary"
+                       style="background-color: #2E5266; color: white;">
+                        Click to view Aquasense Project Report (PDF)
                     </a>
                 </div>
             </div>
-            
-        </div>
-        
 
-    
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     </body>
     
 </html>
